@@ -1,0 +1,99 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Righteous", sans-serif;
+}
+
+.book-container {
+  width: 300px;
+  height: 450px;
+  background-color: #c4c4c4;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-cover {
+  width: 85%;
+  height: 95%;
+  background-color: black;
+  border-radius: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+}
+.orwell {
+  font-size: 2em;
+}
+
+.title {
+  font-size: 4.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  color: rgb(207, 16, 16);
+  text-shadow: 1px 1px 2px black, 1px 1px 5px rgba(0, 0, 0, 0.5),
+    0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+.eye-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+}
+
+.eye-shape {
+  position: relative;
+  width: 160px;
+  height: 80px;
+  background-color: white;
+  border-radius: 80px / 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.eyeball {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  background-color: rgb(207, 16, 16);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pupil {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px white dotted;
+}
+.eyelash {
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 20px;
+}
